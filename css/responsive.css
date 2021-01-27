@@ -193,8 +193,12 @@
         bottom: 115px;
         right: -10px;
     }
+    .apply img {
+	display: none;
+	}
     .apply .text {
         top: 200px;
+		position: initial;
     }
     .apply .text span {
         font-size: 16px;
@@ -237,6 +241,12 @@
         bottom: 180px;
         right: -25px;
     }
+    .apply .text {
+	position: initial;
+	}
+	.apply img {
+	display: none;
+	}
     .footer-top form input {
         width: 250px;
     }
