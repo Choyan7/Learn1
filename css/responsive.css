@@ -1,0 +1,245 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+    .apply .text {
+        top: 290px;
+        right: 670px;
+    }
+    .apply2 {
+        margin-top: -480px;
+    }
+    .apply .text span {
+        font-size: 22px;
+    }
+    .apply .text span h2 {
+        font-size: 30px;
+    }
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .apply .text {
+        top: 260px;
+    }
+    .apply .text span {
+        font-size: 20px;
+    }
+    .apply .text span h2 {
+        font-size: 25px;
+    }
+    .apply2 {
+        margin-top: -430px;
+    }
+    .news span {
+        font-size: 14px;
+    }
+    .news h2 {
+        font-size: 35px;
+    }
+    .footer-top .textarea .text span {
+        font-size: 11px;
+    }
+    .footer-top .list2 {
+        font-size: 12px;
+    }
+    .footer-top .list3 li a {
+        font-size: 12px;
+    }
+    .footer-top form input {
+        width: 220px;
+    }
+
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    #mobile-menu {
+        display: none;
+    }
+    .slicknav_menu {
+        display: block;
+    }
+    .slicknav_btn {
+        background-color: #43cb83;
+    }
+    .slicknav_nav a {
+        color: #5a6e79;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 400;
+    }
+    .slicknav_nav a:hover{
+        color: #43cb83;
+        text-decoration: underline;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 700;
+    }
+    .slicknav_menu {
+        background: #fff;
+    }
+    .header-area .button a {
+        margin-top: -60px;
+    }
+    .about .img a {
+        bottom: 225px;
+        right: 100px;
+    }
+    .apply .text {
+        top: 240px;
+    }
+    .apply2 {
+        margin-top: 0;
+    }
+    .footer-top .textarea .text span {
+        font-size: 11px;
+    }
+    .footer-top .list2 {
+        font-size: 12px;
+    }
+    .footer-top .list3 li a {
+        font-size: 12px;
+    }
+    .footer-top form input {
+        width: 220px;
+    }
+
+
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+
+    #mobile-menu {
+        display: none;
+    }
+    .slicknav_menu {
+        display: block;
+    }
+    .slicknav_btn {
+        background-color: #43cb83;
+    }
+    .slicknav_nav a {
+        color: #5a6e79;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 400;
+    }
+    .slicknav_nav a:hover{
+        color: #43cb83;
+        text-decoration: underline;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 700;
+    }
+    .slicknav_menu {
+        background: #fff;
+    }
+    .header-area .logo {
+        width: 20%;
+    }
+    .header-area .button a {
+        margin-top: -60px;
+    }
+    .department .bg2 {
+        margin-bottom: 30px;
+    }
+    .department .bg3 {
+        margin-bottom: 30px;
+    }
+    .department .bg4 {
+        margin-bottom: 30px;
+    }
+    .department .bg5 {
+        margin-bottom: 30px;
+    }
+    .department .bg6 {
+        margin-bottom: 30px;
+    }
+    .counter .t1 {
+        margin-right: 40px;
+    }
+    .counter .t2 {
+        margin-right: 40px;
+    }
+    .counter .t1 h2 {
+        font-size: 25px;
+    }
+    .counter .t2 h2 {
+        font-size: 25px;
+    }
+    .counter .t3 h2 {
+        font-size: 25px;
+    }
+    .counter .t1 span {
+        font-size: 15px;
+    }
+    .counter .t2 span {
+        font-size: 15px;
+    }
+    .counter .t3 span {
+        font-size: 15px;
+    }
+    .about .img img {
+        margin-left: -60px;
+    }
+    .about .img a i {
+        font-size: 30px;
+    }
+    .about .img a {
+        bottom: 115px;
+        right: -10px;
+    }
+    .apply .text {
+        top: 200px;
+    }
+    .apply .text span {
+        font-size: 16px;
+    }
+    .apply .text span h2 {
+        font-size: 20px;
+    }
+    .apply2 {
+        margin-top: 0;
+    }
+    .form img {
+        display: none;
+    }
+    .form .text1 {
+        position: initial;
+    }
+    .footer-top .col-xl-3.col-lg-3.col-md-6 {
+        margin-bottom: 50px;
+    }
+    .footer-end .text {
+        font-size: 11px;
+    }
+    .footer-end .list ul {
+        float: left;
+    }
+    .footer-end .list ul li a {
+        font-size: 10px;
+        margin-left: 10px;
+    }
+ 
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    .about .img img {
+        margin-left: -100px;
+    }
+    .about .img a {
+        bottom: 180px;
+        right: -25px;
+    }
+    .footer-top form input {
+        width: 250px;
+    }
+
+
+}

@@ -1,0 +1,569 @@
+body{}
+img {
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.slicknav_menu {
+    display: none;
+}
+
+/* header area start */
+
+.header-area {
+    background-size: cover;
+    background: center;
+}
+.header-area .logo {
+    padding-top: 25px;
+}
+.header-area .menu {
+    float: right;
+    margin-top: 55px;
+}
+.header-area .menu ul{}
+.header-area .menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 45px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+.header-area .menu ul li a {
+    text-decoration: none;
+    color: #5a6e79;
+    transition-duration: .3s;
+    transition-property: all;
+}
+.header-area .menu ul li:hover a {
+    color: #43cb83;
+    text-decoration: underline;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+}
+.header-area .button{}
+.header-area .button a {
+    text-decoration: none;
+    color: #43cb83;
+    float: right;
+    background: #fff;
+    padding: 13px 30px;
+    margin-top: 42px;
+    border-radius: 30px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    box-shadow: 0 9px 70px 0 rgba(39, 57, 160, 0.2);
+}
+
+.header-area .head{}
+.header-area .head h3 {
+    font-size: 40px;
+    line-height: 56px;
+    color: #43cb83;
+    padding-top: 200px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.header-area .span {
+    padding-top: 10px;
+}
+.header-area .span span {
+    color: #5a6e79;
+    line-height: 26px;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+.header-area .visit {
+    padding-top: 65px;
+    padding-bottom: 450px;
+}
+.header-area .visit a {
+    text-decoration: none;
+    color: #fff;
+    background: #43cb83;
+    font-size: 18px;
+    padding: 20px 30px;
+    border-radius: 30px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+/* header area end */
+
+
+/* department area start */
+
+.department.text-center {
+	margin-top: -90px;
+}
+.department img {
+    width: 15%;
+}
+.department span {
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+}
+.department .bg1 {
+    background: #f1e3fc;
+    margin-bottom: 30px;
+}
+.department .bg2 {
+    background: #e3fcfa;
+}
+.department .bg3 {
+    background: #fcf0e3
+}
+.department .bg4 {
+    background: #fceee3;
+}
+.department .bg5 {
+    background: #f3fce3;
+}
+.department .bg6 {
+    background: #e3f3fc;
+}
+.department .pb {
+    padding-bottom: 75px;
+}
+.department img {
+    width: 15%;
+    padding-bottom: 40px;
+    padding-top: 60px;
+}
+
+/* department area end */
+
+
+/* about area start */
+
+.about{
+    padding-top: 155px;
+}
+.about .img {
+    position: relative;
+}
+.about .img img {
+    width: 115%;
+    margin-left: -175px;
+}
+.about .img a {
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    bottom: 260px;
+    left: 0;
+    right: 75px;
+    text-align: center;
+}
+.about .img a i {
+    font-size: 40px;
+    background: #43cb83;
+    border-radius: 100%;
+    padding: 25px 25px;
+}
+.text-f .text h2 {
+    font-size: 40px;
+    line-height: 56px;
+    color: #43cb83;
+    padding-bottom: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.text-f .text span {
+    font-size: 18px;
+    line-height: 26px;
+    color: #5a6e79;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+.about .counter {
+    padding-top: 60px;
+}
+.counter .t1 h2 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.counter .t1 {
+    color: #ffba00;
+    margin-right: 90px;
+}
+
+.counter .t1 span {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+.counter .t2 h2 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.counter .t2 {
+    color: #ff5f72;
+    margin-right: 90px;
+}
+
+.counter .t2 span {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+.counter .t3 h2 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.counter .t3 {
+    color: #43cb83;
+}
+
+.counter .t3 span {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+/* about area end */
+
+/* apply area start */
+
+.apply {
+	position: relative;
+	padding-top: 200px;
+}
+.apply .text span {
+	line-height: 42px;
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.apply .text span a {
+	text-decoration: none;
+	color: #fb384d;
+}
+.apply .text span h2 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.apply .text {
+	position: absolute;
+	content: "";
+	top: 370px;
+}
+.form{
+    position: relative;
+}
+.apply2 {
+	margin-top: -530px;
+}
+.form img {
+	height: 680px;
+	width: 580px;
+	float: right;
+}
+.form .text1 {
+	position: absolute;
+	top: 80px;
+	right: 160px;
+	content: "";
+}
+.apply2 .text1 button {
+	text-decoration: none;
+	color: #fff;
+	background: #43cb83;
+	font-size: 18px;
+	padding: 15px 30px;
+	border-radius: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	border: 0;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.text1 h2 {
+	font-size: 24px;
+	line-height: 42px;
+	padding-left: 80px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.text1 input {
+	border: 0;
+	margin: 15px 0;
+    background: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+.form label {
+	font-size: 13px;
+    color: #87959c;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+.form .text1 span {
+	font-size: 13px;
+    color: #5a6e79;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+.form .text1 a {
+	font-size: 13px;
+    color: #87959c;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+
+/* apply area end */
+
+/* news area end */
+
+.news {
+	margin-top: 50px;
+	margin-bottom: 120px;
+}
+.news button {
+	text-decoration: none;
+	color: #fff;
+	background: #43cb83;
+	font-size: 18px;
+	padding: 15px 60px;
+	border-radius: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	border: 0;
+	margin-top: 60px;
+	float: right;
+}
+.news h2 {
+	font-size: 40px;
+    color: #43cb83;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.news span {
+	font-size: 16px;
+	line-height: 24px;
+    color: #5a6e79;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+/* news area end */
+
+/* post area start */
+
+.right {
+	float: right;
+	margin-right: 50px;
+}
+.post .col-xl-6 {
+	margin-bottom: 70px;
+}
+.post h2 {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.post span {
+	font-size: 16px;
+	line-height: 24px;
+    color: #5a6e79;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+.post .foot {
+    color: #5a6e79;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.post .foot a {
+	text-decoration: none;
+	color: #5a6e79;
+}
+.post .foot i {
+	margin-right: 10px;
+}
+.post .foot a:nth-last-child(2) {
+    margin-left: 30px;
+}
+.post .foot i:hover{
+    color: #43cb83;
+}
+
+/* post area end */
+
+/* Footer area start */
+
+.footer-top {
+	background: #252c3a;
+	margin-top: 70px;
+}
+.padd {
+    padding: 80px 0;
+}
+
+.footer-top .logo {
+    width: 70%;
+}
+.footer-top .icon a {
+    color: #4a4a4a;
+    margin-right: 15px;
+    font-size: 18px;
+}
+.footer-top .icon a:hover{
+    color: #0089fd;
+}
+.footer-top .textarea .text span {
+    color: #969595;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.footer-top .textarea .text {
+    padding: 25px 0;
+}
+.footer-top .textarea .text {
+    padding: 25px 0;
+    border-bottom: 1px solid #303744;
+    display: inline-block;
+}
+.footer-top .icon {
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+.footer-top .list2 {
+    font-size: 14px;
+}
+
+.footer-top .list2 span {
+    display: inline-flex;
+    line-height: 22px;
+    padding-bottom: 10px;
+    color: #969595;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.footer-top .list2 p {
+    font-size: 12px;
+    color: #6b6b6b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.footer-top .head2 {
+    color: #fff;
+    font-size: 14px;
+    padding-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.footer-top .list2 a{
+    text-decoration: none;
+}
+.footer-top .head3 {
+    color: #fff;
+    padding-bottom: 50px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.footer-top .list3 ul {
+    float: left;
+    padding-left: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.footer-top .list3 li {
+    list-style: none;
+    padding-bottom: 23px;
+}
+.footer-top .list3 li a {
+    text-decoration: none;
+    color: #969595;
+    font-size: 14px;
+    line-height: 22px;
+}
+.footer-top .head4 {
+    color: #fff;
+    padding-bottom: 50px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.footer-top .text4 {
+    font-size: 13px;
+    color: #969595;
+    line-height: 22px;
+    padding-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.footer-top form input {
+    width: 260px;
+    height: 40px;
+    padding-left: 15px;
+    border: 0;
+}
+form {
+    position: relative;
+}
+.footer-top button {
+    position: absolute;
+    background: #ffc178;
+    border: 0;
+    color: #fff;
+    width: 80px;
+    height: 40px;
+    margin-left: -80px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.footer-end {
+    background: #1d232e;
+}
+.footer-end .text {
+    color: #6b6b6b;
+    padding: 20px 0;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.footer-end{}
+.footer-end .list{}
+.footer-end .list ul {
+    float: right;
+    margin: 0;
+    padding: 20px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.footer-end .list ul li {
+    display: inline-block;
+}
+.footer-end .list ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 20px;
+    color: #6b6b6b;
+}
+
+/* Footer area end */
